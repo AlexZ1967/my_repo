@@ -8,15 +8,16 @@
 int power(int x, unsigned p) {
     int answer = 1;
     while(p){
-
       answer *= x;
       p--;
-
     }
     return answer;
 }
 
 int main(){
-  std::cout<<power(2, 1)<<std::endl;;
+  int a;
+  unsigned b;
+  std::cin>>a>>b;
+  std::cout<<power(a, b)<<std::endl;;
   return 0;
 }
