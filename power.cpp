@@ -17,7 +17,7 @@ int power(int x, unsigned p) {
 int main(){
   int a;
   unsigned b;
-  std::cin>>a>>b
-  std::cout<<power(2, 1)<<std::endl;
+  std::cin>>a>>b;
+  std::cout<<power(a, b)<<std::endl;
   return 0;
 }
