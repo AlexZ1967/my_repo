@@ -3,7 +3,7 @@
 //    p - степень, в которую нужно возвести x
 //
 #include <iostream>
-
+using namespace std;
 
 int power(int x, unsigned p) {
     int answer = 1;
@@ -17,6 +17,12 @@ int power(int x, unsigned p) {
 }
 
 int main(){
-  std::cout<<power(2, 1)<<std::endl;;
+  int a, b;
+  cout<<"Введите число которое будете возводить в степень: ";
+  cin>>a;
+  cout<<"Введите степень d в котрорую будете возводить: ";
+  cin>>b;
+  printf("%d^%d = ", a, b);
+  cout<<power(a, b)<<endl;;
   return 0;
 }
